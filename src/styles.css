@@ -1,0 +1,86 @@
+.App {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  margin: 20px 100px;
+}
+
+.main-name {
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+.btns .btn {
+    padding: 8px 25px;
+    box-shadow: 0 2px 3px 1px .5 lightgrey;
+    border-radius: 5px;
+    background-color: white;
+    border-color: lightgrey;
+    cursor: pointer;
+}
+.btns .btn:enabled:hover {
+  background-color: lightskyblue
+}
+.progress {
+  margin: 10px;
+}
+.single-section {
+  padding: 1px 10px;
+  box-shadow: 0 2px 9px 1px lightgrey;
+  border-radius: 5px;
+  background-color: white;
+  margin: 15px 0;
+}
+.single-answer {
+  display: inline-block;
+border: solid 1px #ccc;
+padding: 3px 10px;
+font-size: 12px;
+margin-right: 10px;
+border-radius: 10px;
+}
+
+.questions-wrapper {
+  padding: 5px;
+}
+
+.label {
+  letter-spacing: 0.1em;
+}
+
+.cb-label {
+  margin: 10px;
+}
+
+.question {
+  margin: 10px;
+}
+.question div {
+  margin: 5px 0;
+}
+
+.textbox input {
+  width: 50%;
+  padding: 6px;
+}
+
+.progress {
+  height: 5px;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 2px 0px rgba(68, 68, 68, 0.6);
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.progress-div {
+  transition: 0.5s;
+}
+.fill {
+  border-radius: 5px;
+  background-color: rgb(42, 134, 255);
+}
